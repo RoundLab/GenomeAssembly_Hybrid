@@ -1,0 +1,13 @@
+**/*.outerror
+**/.Rhistory
+**/.Rprofile
+**/.Renviron
+**/.RData
+**/.DS_store
+**/Icon?
+**/._*
+/assemblies
+/annotation
+/comp
+/metadata
+**/*_test.sh
