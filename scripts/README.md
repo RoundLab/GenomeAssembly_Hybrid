@@ -1,11 +1,13 @@
 # Scripts descriptions:
 
 - Genome_Assembly_Hybrid.sh: Slurm script for running genome assemblies on CHPC. Modify variables in first section and submit.
-  - Suggest running on single full node to allow gtdbtk classifier to finish, but if desired assemblies can usually be accomplished fairly quickly on shared nodes with only ~12 processors (default memory alloc). 
+  - Suggest running on single full node to allow gtdbtk classifier to finish, but if desired assemblies can usually be accomplished fairly quickly on shared nodes with only ~12 processors (default memory alloc).
 
-# Status
+# Status / to do
 
-- Need to containerize.
+- nextflow.
+- containerize.
+- Implement file name checks for input fastqs. Different naming conventions from different seq providers. (i.e. _R1.fq.gz, _1.fastq.gz, etc.)
 
 
 # Nextflow in progress:
