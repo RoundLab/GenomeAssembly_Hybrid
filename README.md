@@ -2,7 +2,7 @@
 
 Scripts for hybrid bacterial genome assemblies using ONT and Illumina paired-end reads.
 
-[scripts/GenomeAssembly_Hybrid.sh](scripts/Genome_Assembly_Hybrid.sh) Main Unicycler based hybrid assembly, prokka annotation, GTDBtk taxonomic call and quast assembly comparison.
+[scripts/GenomeAssembly_Hybrid.sh](scripts/GenomeAssembly_Hybrid.sh) Main Unicycler based hybrid assembly, prokka annotation, GTDBtk taxonomic call and quast assembly comparison.
 
 [scripts/Genomes_gtdbtk.sh](scripts/genomes_gtdbtk.sh):  Accessory script running GTDBtk alone.
 
